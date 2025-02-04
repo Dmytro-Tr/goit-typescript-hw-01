@@ -1,3 +1,3 @@
 let mixedType: string | number;
 
-let status: "enable" | "disable";
+type status = "enable" | "disable";
