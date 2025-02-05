@@ -11,3 +11,5 @@ let callback = (a: number): number => {
 // console.log(toggle);
 // console.log(empty);
 // console.log(callback);
+
+// Перетворіть цей код на TypeScript, вказавши відповідні типи для всіх змінних.
