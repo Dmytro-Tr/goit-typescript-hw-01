@@ -1,4 +1,4 @@
-type User = {
+interface User {
   name: string;
   age: number;
   email: string;
@@ -6,9 +6,9 @@ type User = {
     city: string;
     country: string;
   };
-};
+}
 
-const mango = {
+const mango: User = {
   name: "Mango",
   age: 30,
   email: "john@example.com",
@@ -18,7 +18,7 @@ const mango = {
   },
 };
 
-const poly = {
+const poly: User = {
   name: "Mango",
   age: 30,
   email: "john@example.com",
